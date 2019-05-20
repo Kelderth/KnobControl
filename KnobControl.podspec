@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "KnobControl"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A knob control like the UISlider, but in a circular form."
   s.description	 = "The knob control is a completely customizable widget that can
    be used in any iOS app. It also plays a little victory fanfare."
@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -55,7 +55,8 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Kelderth" => "Kelderth@gmail.com" }
+  s.author = "Kelderth"
+  # s.author             = { "Kelderth" => "Kelderth@gmail.com" }
   # Or just: s.author    = "Kelderth"
   # s.authors            = { "Kelderth" => "Kelderth@gmail.com" }
   # s.social_media_url   = "http://twitter.com/Kelderth"
@@ -83,7 +84,7 @@ Pod::Spec.new do |s|
   #
 
   #  s.source       = { :git => "http://EXAMPLE/KnobControl.git", :tag => "#{s.version}" }
-  s.source 		 = { :git => "https://github.com/Kelderth/KnobControl.git", :tag => "1.0.0" }
+  s.source 		 = { :git => "https://github.com/Kelderth/KnobControl.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
