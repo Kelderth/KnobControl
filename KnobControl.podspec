@@ -83,7 +83,7 @@ Pod::Spec.new do |s|
   #
 
   #  s.source       = { :git => "http://EXAMPLE/KnobControl.git", :tag => "#{s.version}" }
-  s.source 		 = { :git => "https://github.com/Kelderth/KnobControl.git" :tag => '1.0.0' }
+  s.source 		 = { :git => "https://github.com/Kelderth/KnobControl.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
